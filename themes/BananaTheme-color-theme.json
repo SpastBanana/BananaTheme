@@ -209,7 +209,6 @@
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
-        "constant.numeric",
         "support.constant",
         "constant.character",
         "constant.escape",
@@ -253,7 +252,8 @@
         "source.batchfile",
         "variable.other",
         "variable.parameter",
-        "variable"
+        "variable",
+        "punctuation.definition.variable.php"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -262,15 +262,27 @@
     },
     {
       "name": "CSS Class and Support",
-      "scope": ["storage.type", "keyword.operator.comparison.python"],
+      "scope": [
+        "storage.type",
+        "keyword.operator.comparison.python",
+        "variable.other.object.js",
+        "entity.other.attribute-name.html"
+      ],
       "settings": {
-        "fontStyle": "",
-        "foreground": "#009bd8"
+        "fontStyle": "italic",
+        "foreground": "#078fe9"
       }
     },
     {
       "name": "CSS Class and Support",
-      "scope": ["storage.type.js", "constant.language"],
+      "scope": [
+        "storage.type.js",
+        "constant.language",
+        "support.type.python",
+        "constant.numeric",
+        "string.quoted.other.lt-gt.include.c",
+        "constant.other.placeholder.c"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#9303f3"
@@ -278,7 +290,19 @@
     },
     {
       "name": "CSS Class and Support",
-      "scope": ["keyword.operator.comparison.js"],
+      "scope": ["constant.language.python", "support.type.python"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#9303f3"
+      }
+    },
+    {
+      "name": "CSS Class and Support",
+      "scope": [
+        "keyword.operator.comparison.js",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#b9a119"
@@ -294,7 +318,9 @@
         "keyword.other.template",
         "keyword.other.substitution",
         "keyword.operator.logical.python",
-        "entity.name"
+        "entity.name",
+        "support.function.builtin.python",
+        "punctuation.definition.directive.c"
       ],
       "settings": {
         "fontStyle": "",
@@ -339,13 +365,6 @@
       "scope": ["markup.deleted"],
       "settings": {
         "foreground": "#FF5370"
-      }
-    },
-    {
-      "name": "Deleted",
-      "scope": ["support.type"],
-      "settings": {
-        "foreground": "#b9a119"
       }
     },
     {

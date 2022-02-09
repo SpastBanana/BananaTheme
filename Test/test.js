@@ -6,3 +6,8 @@ function jemoeder(setting) {
     console.log("Niet 11111 uhfhsadfja;lsdkfj;");
   }
 }
+
+let jemoeder = 9;
+const ass = "kanus";
+
+kanus = document.getElementById("ass");
