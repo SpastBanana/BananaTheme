@@ -1,0 +1,36 @@
+{
+  "name": "banana-dark-theme",
+  "displayName": "BananaTheme",
+  "description": "Dark Blue Golden Touch themes for Code",
+  "version": "0.2.1",
+  "publisher": "DJ-BananaTheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpastBanana"
+  },
+  "keywords": [
+    "banana",
+    "theme",
+    "dark theme",
+    "code theme",
+    "editor theme",
+    "dark theme",
+    "dark blue",
+    "dark blue theme"
+  ],
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BananaTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BananaTheme-color-theme.json"
+      }
+    ]
+  }
+}
